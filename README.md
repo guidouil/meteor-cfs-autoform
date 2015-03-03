@@ -60,7 +60,7 @@ Files.allow({
 
 ## Schema Example
 
-If you are not able to change the `afQuickField` attributes directly or you want to use a `quickForm`, you can put the attributes in the schema instead:
+If you are not able to change the `afQuickField` attributes directly or you want to use a `quickForm`, you can put the attributes in the schema instead (don't forget to add `enctype="multipart/form-data"` in your `quickform` or `autoForm`):
 
 ```js
 Docs.attachSchema(new SimpleSchema({
